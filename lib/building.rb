@@ -15,8 +15,8 @@ class Building
     end.sum.to_f/@units.count
   end
 
-  def renter_with_highest_rent
-    total_renters = @units.max_by do |apartment|
-      apartment.montly_rent
-  end
+  # def renter_with_highest_rent
+  #   total_renters = @units.max_by do |apartment|
+  #     apartment.montly_rent
+  # end
 end
